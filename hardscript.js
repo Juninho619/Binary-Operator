@@ -2,6 +2,7 @@ let leftOperator = document.querySelector(".operator1");
 let rightOperator = document.querySelector(".operator2");
 let submitButton = document.querySelector(".submitanswer");
 let playground = document.querySelector(".playground");
+let wrongAnswer = document.querySelector(".useranswer");
 
 countdown();
 
@@ -46,7 +47,7 @@ class AnswerChecker {
       playground.innerHTML = '<p class="winmessage">You win!</p>';
       window.location.reload();
     } else {
-      alert("Mauvaise réponse !");
+      wrongAnswer.classList.toggle("useranswer-error");
     }
   }
 }

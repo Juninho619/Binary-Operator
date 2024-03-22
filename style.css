@@ -41,6 +41,10 @@ body {
   grid-area: "answer";
 }
 
+.useranswer-error {
+  background-color: red;
+}
+
 .submitanswer {
   grid-area: "submit";
 }
