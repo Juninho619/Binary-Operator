@@ -1,0 +1,47 @@
+body {
+  background-color: #080606;
+  padding: 0;
+  margin: 0;
+}
+.playground {
+  width: 60vw;
+  height: 80vh;
+  background-color: #d8a80a;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 25px;
+  padding-left: 25vw;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #c70e01;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.easyModeButton {
+  width: 40vh;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 120px;
+}
+
+.hardModeButton {
+  width: 40vh;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 30px;
+}
+
+::selection {
+  background-color: #000000;
+  color: rgb(226, 26, 0);
+}

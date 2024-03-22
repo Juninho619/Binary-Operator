@@ -1,0 +1,65 @@
+body {
+  background-color: #080606;
+  padding: 0;
+  margin: 0;
+}
+.playground {
+  display: grid;
+  grid-template-areas:
+    "leftop op rightop"
+    "answer answer answer"
+    "submit submit submit";
+  width: 60vw;
+  height: 80vh;
+  background-color: #d8a80a;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-top: 25px;
+  padding-left: 15vw;
+  padding-right: 15vw;
+}
+
+::selection {
+  background-color: #000000;
+  color: rgb(226, 26, 0);
+}
+.operator1 {
+  grid-area: "leftop";
+  font-size: 100px;
+}
+
+.operation {
+  grid-area: "op";
+  font-size: 100px;
+}
+.operator2 {
+  grid-area: "rightop";
+  font-size: 100px;
+}
+
+.useranswer {
+  grid-area: "answer";
+}
+
+.submitanswer {
+  grid-area: "submit";
+}
+
+.restartbutton {
+  position: absolute;
+  top: 50vh;
+  left: 40vw;
+  height: 15vh;
+  width: 19vw;
+}
+
+.winmessage {
+  color: red;
+  font-size: 25px;
+}
+
+.score {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
