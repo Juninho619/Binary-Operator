@@ -1,3 +1,4 @@
+// Sélection de différents éléments de la page
 let leftOperator = document.querySelector(".operator1");
 let rightOperator = document.querySelector(".operator2");
 let submitButton = document.querySelector(".submitanswer");
@@ -5,7 +6,7 @@ let playground = document.querySelector(".playground");
 let wrongAnswer = document.querySelector(".useranswer");
 
 countdown();
-
+// Classe qui génère des additions
 class OperationGenerator {
   constructor() {
     this.leftOperator = this.generateLeftOperator();
@@ -24,7 +25,7 @@ class OperationGenerator {
     return randomRightOperator;
   }
 }
-
+// Classe qui vérifie les réponses
 class AnswerChecker {
   constructor(operationGenerator) {
     this.operationGenerator = operationGenerator;
@@ -40,8 +41,6 @@ class AnswerChecker {
     // Convertir le résultat de l'opération en binaire
     trueAnswer = trueAnswer.toString(2);
 
-    console.log(trueAnswer);
-
     if (trueAnswer === userAnswer) {
       alert("Bonne réponse !");
       playground.innerHTML = '<p class="winmessage">You win!</p>';
@@ -51,10 +50,10 @@ class AnswerChecker {
     }
   }
 }
-
+//Création des instances
 const operationGenerator = new OperationGenerator();
 const answerChecker = new AnswerChecker(operationGenerator);
-
+// Fonction compte à rebours
 function countdown() {
   let playground = document.querySelector(".playground");
   let seconds = 15;
