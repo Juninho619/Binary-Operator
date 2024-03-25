@@ -1,0 +1,7 @@
+Charte graphique de Binary Operator
+
+L'arrière-plan est noir. Les chiffres apparaissent dans un fond doré (#d8a80a).
+
+En sélection, l'arrière-plan est noir et les lettres sont rouges.
+
+Les chiffres de l'opération sont de 100px.
