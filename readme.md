@@ -2,7 +2,7 @@
 
 ### Règles du jeu
 
-L'objectif est de répondre à une additon en moins de 15 secondes. L'addition est affichée en décimal, il faut y répondre en binaire.
+L'objectif est de répondre à une addition en moins de 15 secondes. L'addition est affichée en décimal, il faut y répondre en binaire.
 
 Lors du menu le joueur peut choisir entre deux modes de difficulté. Le Hard Mode est réservé aux joueurs à la recherche d'un vrai défi. Il est recommandé de commencer par le Easy Mode.
 
@@ -20,4 +20,4 @@ Les additions sont générées aléatoirement en manipulant le DOM.
 
 Les résultats du Easy Mode se trouvent entre 2 et 10, soit 10 et 1010, respectivement.
 
-En Hard Mode, les résultats se situent entre 2 et 200, soit 10 et 11001000.
+En Hard Mode, les résultats se situent entre 2 et 100, soit 10 et 1100100.
