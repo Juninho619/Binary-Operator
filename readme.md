@@ -20,4 +20,4 @@ Les additions sont générées aléatoirement en manipulant le DOM.
 
 Les résultats du Easy Mode se trouvent entre 2 et 10, soit 10 et 1010, respectivement.
 
-En Hard Mode, les résultats se situent entre 2 et 100, soit 10 et 1100100.
+En Hard Mode, les résultats se situent entre 2 et 200, soit 10 et 11001000.
