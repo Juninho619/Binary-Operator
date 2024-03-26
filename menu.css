@@ -41,6 +41,16 @@ a:hover {
   margin-top: 30px;
 }
 
+.ruleButton {
+  width: 40vh;
+  background-color: white;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 70px;
+  color: black;
+  display: inline-block;
+}
+
 ::selection {
   background-color: #000000;
   color: rgb(226, 26, 0);
